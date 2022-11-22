@@ -637,3 +637,28 @@ html,
     color: #848486;
   }
 }
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.3);
+  box-shadow: rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: rgba(17, 16, 16, 0.13);
+  -webkit-box-shadow: rgba(0, 0, 0, 0.9);
+  box-shadow: rgba(0, 0, 0, 0.5);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(158, 158, 161);
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+  background: rgb(175, 176, 178);
+}
